@@ -1,0 +1,1535 @@
+/*
+Penguin UK Ebook CSS
+DATE: 01/04/2015
+version 3.2
+*/
+
+/* =============== Document Styles =============== */
+
+body {    
+    orphans: 2;
+    widows: 2
+}
+
+a {
+    text-decoration:none !important;
+}
+p {
+	text-align: left;
+	text-indent: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	orphans: 2;
+	widows: 2;
+	/*line-height: 1.3em*/ /*Removed v3.2, do not re-invoke*/
+}
+sup.EBsup {
+    vertical-align: super;
+    font-size: x-small;
+    line-height: 100% !important;
+}
+sub.EBsub {
+    vertical-align: sub;
+    font-size: x-small;
+    line-height: 100% !important;
+}
+
+span.underline {
+    text-decoration:underline;
+}
+
+span.strikethrough {
+    text-decoration:line-through;
+}
+
+span.overline {
+    text-decoration:overline;
+}
+
+/* ######### Headings ######### */
+
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2.EB04MainHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: 14%;
+	margin-bottom: 2em;
+	font-weight: normal;
+}
+h2.EB04MainHeadClosedNum {
+	page-break-after: avoid;
+	text-align: center;
+	margin-top:14%;
+	margin-bottom:0.85em;
+	font-weight: normal;
+}
+h2.EB04MainHeadClosedTitle {
+	page-break-after: avoid;
+	line-height: 1em;
+	text-align: center;
+	margin-bottom: 2em;
+	font-weight: normal;
+}
+h4.EB10SmallHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+h5.EB07SmallCapsMediumHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2.EB09SmallCapsLargeHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 18%;
+	margin-bottom: 0;
+}
+
+h2.EB09LargeHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 18%;
+	margin-bottom: 0;
+	hyphens:none;
+	-webkit-hyphens: none;
+}
+h4.EB11SmallItalicHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 2em;
+	text-indent:0;
+}
+h4.EB11SmallItalicHeadSpaced {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	text-indent:0;
+}
+h3.EB04MainHead2 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+h3.EB04SmallCapsMainHead2 {
+	page-break-after: avoid;
+	line-height: 1em;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	font-size:1.7em;
+	text-transform:lowercase;
+	letter-spacing: 0.1em;
+    font-variant:small-caps;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+h2.EB06MainHead3 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 14%;
+	margin-bottom: 0.5em;
+}
+h5.EB08ExtraFeatureHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+/* ######### Paragraphs ######### */
+
+p.EB01BodyTextLineSpace {
+	line-height: 1.3em;
+	margin-top: 1em;
+	text-indent: 0;
+}
+p.EB02BodyTextFullOut {
+	line-height: 1.3em;
+	text-indent: 0;
+}
+p.EB03BodyTextIndented {
+	line-height: 1.3em;
+	text-indent: 1em;
+}
+p.EB15ContentsText {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-left: 2em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+p.EB15ContentsTextIndent {
+	line-height: 1.3em;
+	text-indent: 1em;
+	font-size: 0.85em;
+	margin-left: 2em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+p.EB12SmallItalic {
+	line-height: 1.3em;
+	text-indent: 0;
+	text-align: center;
+	font-style: italic;
+}
+p.EB01Imprint {
+    margin-top:10px;
+	line-height: 1.3em;
+	text-indent: 0;
+	text-align: center;
+	font-size: 0.85em;
+	page-break-inside:avoid;
+}
+div.EB01imprintContainer{
+    margin-top:35%;
+    height:15%;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+}
+p.EB29BodyTextIndentLineSpace {
+    line-height: 1.3em;
+    text-indent: 1em;
+    margin-top: 1em
+}
+
+/* ######### Epigraph ######### */
+
+p.EB17Epigraph { /*Standard epigraph*/
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	font-style: italic;
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+div.EB17PoemEpigraphStanzaWrap {
+    width:100%;
+    margin-top: 2em;
+}
+p.EB17PoemEpigraphLine {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	font-style: italic;
+	text-indent: -2em;
+    padding-left: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p.EB18EpigraphSource {
+	line-height: 1.3em;
+	text-indent: 0;
+	text-align: right;
+	font-size: 0.85em;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 2em;
+	margin-right: 1em;
+}
+/* ######### Extra Feature ######### */
+blockquote {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.EB22ExtraFeatureFirst {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.EB19ExtraFeatureFullOut {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.EB21ExtraFeatureIndented {
+	line-height: 1.3em;
+	text-indent: 1em;
+	font-size: 0.85em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.EB20ExtraFeatureLast {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+
+p.EB20ExtraFeatureLastBS {           /*Re-added v3.2*/
+line-height: 1.3em;        
+text-indent: 0; 
+font-size: 0.85em;         
+margin-bottom: 0.5em;
+margin-left: 1em;           
+margin-right: 1em;}
+ 
+p.EB21ExtraFeatureIndentedNBS {     /*Re-added v3.2*/ 
+line-height: 1.3em;        
+text-indent: 1em;          
+font-size: 0.85em;         
+margin-left: 1em;           
+margin-right: 1em;}
+ 
+p.EB20ExtraFeatureLastRight {       /*Re-added v3.2*/
+line-height: 1.3em;        
+text-indent: 0; 
+text-align: right;
+font-size: 0.85em;         
+margin-left: 1em;           
+margin-right: 1em;}
+
+p.textMessageFirst {
+	line-height: 1.3em;
+	text-indent: 0;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+p.textMessage {
+	line-height: 1.3em;
+	text-indent: 0;
+	margin-left: 3em;
+	margin-right: 3em;
+    margin-bottom:1em;
+}
+p.textMessageLast {
+	line-height: 1.3em;
+	text-indent: 0;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+p.dramaFirst {
+    text-indent: -1em;
+    padding-left: 1em;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+p.drama {
+    text-indent: -1em;
+    padding-left: 1em;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin-bottom:1em;
+}
+span.dramaSmallCaps {
+    font-size:0.85em;
+    letter-spacing:2px;
+}
+p.diaryText {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.diaryDate {
+	line-height: 1.3em;
+    font-weight:bold;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.diaryTextLast {
+	line-height: 1.3em;
+    text-indent: 0;
+	font-size: 0.85em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+blockquote p {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* ######### List ######### */
+
+li.EB23ListFirst {
+	text-align: left;
+	line-height: 1.3em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+li.EB24List {
+	text-align: left;
+	line-height: 1.3em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+li.EB25ListLast {
+	text-align: left;
+	line-height: 1.3em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+li.EB26ListNested {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+li.kidsList {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0.25em;
+	margin-left:0.25em;
+}
+li.kidsListFirst {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+	margin-left:0.25em;
+}
+li.kidsListLast {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-left:0.25em;
+}
+li.kidsListNested {
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+ol.kidsNestedWrap {
+    margin-top:0.25em;
+}
+ul.kidsNestedWrap {
+    margin-top:0.25em;
+}
+
+/* ######### Hanging Indents ######### */
+
+p.EB26SmallTextHangingIndent {
+	line-height: 1.3em;
+	font-size: 0.85em;
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p.EB27SmallTextExtraIndent {
+	line-height: 1.3em;
+	font-size: 0.85em;
+	text-indent: 0;
+	margin-left: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* ######### Copyright ######### */
+
+h5.EB13CopyrightHead {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight:normal;
+}
+p.EB14CopyrightText {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+p.EB14CopyrightTextNoSpace {
+	line-height: 1.3em;
+	text-indent: 0;
+	font-size: 0.85em;
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+
+/* ######### Foot/Endnotes ######### */
+
+p.footnote {
+    text-indent: -1em;
+	padding-left: 1em;
+}
+p.endnote {
+    text-indent: -1em;
+	padding-left: 1em;
+}
+p.footnote a {
+    color:blue;
+}
+p.footnote a:visited {
+    color:blue;
+}
+div.footnote_page {
+    page-break-before: always;
+}
+
+/* ######### Images/Maps ######### */
+
+div.cover {
+    width:100%;
+    text-align:center;
+}
+div.cover img {
+    max-height:100%;
+    max-width:100%;
+}
+div.MapTitle {
+    page-break-after: always;
+}
+div.image {
+    margin:1em 0em 0.7em 0em;
+    width:100%;
+    max-width:100%;
+    display:inline-block;
+    text-align:center;
+}
+
+div.image img {
+    margin:0em 0em 0em 0em;
+    max-width:100%;
+    display:inline-block;
+}
+
+div.imageLeft {   /* New in v3.1 */
+    margin:1em 0em 0.7em 0em;
+    width:100%;
+    max-width:100%;
+    display:inline-block;
+    text-align:left;
+}
+
+div.imageLeft img {   /* New in v3.1 */
+    margin:0em 0em 0em 0em;
+    max-width:100%;
+    display:inline-block;
+}
+
+div.imageRight {   /* New in v3.1 */
+    margin:1em 0em 0.7em 0em;
+    width:100%;
+    max-width:100%;
+    display:inline-block;
+    text-align:right;
+}
+
+div.imageRight img {   /* New in v3.1 */
+    margin:0em 0em 0em 0em;
+    max-width:100%;
+    display:inline-block;
+}
+
+
+/* __Full Page Portrait Images__ */
+
+div.fullPagePortrait { /* Always use this as parent div for full page portrait <img>. The image itself is sized automatically. */
+	page-break-inside: avoid;
+	text-align: center;
+	height: 98%; /* Not 100% to avoid blank pages on some devices */
+	height: 98vh; /* Necessary for IOS7+ */
+	width: auto
+}
+
+div.fullPagePortrait img { /* This image class works automatically and does not need to be called */
+	height: 100%;
+	max-height: 100%;
+	width: auto
+}
+
+
+/* __Full Page Captioned Images__ */
+
+div.FullpageimageCaptionedLandscape {
+    width:100%;
+    max-width:100%;
+    text-align:center;
+    height: auto;
+    page-break-before:always;
+/*  page-break-after:always;*/
+/*  display:inline-block;*/
+
+}
+
+div.FullpageimageCaptionedLandscape img {
+     max-width: 100%;
+     width: 100%;
+     margin-bottom: 0.7em;
+}
+ 
+div.FullpageimageCaptionedPortrait {
+    width:auto;
+    max-width:100%;
+    height:auto;
+    text-align:center;
+    page-break-before:always;
+/*  page-break-after:always;*/
+/*  display:inline-block;*/
+
+}
+
+div.FullpageimageCaptionedPortrait img {
+                height:100%;
+                max-height: 100%;
+                width: auto;
+                margin-bottom: 0.7em;
+    }
+
+/* ######### Image Captions ######### */
+
+p.EB28InlineCaption {
+    text-align:center;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin:0em 0em 1em 0em;
+}
+p.EB28FSCaption {
+    text-align:center;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin:0em 0em 1em 0em;
+}
+
+p.EB28InlineCaption1 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin:0em 0em 0em 0em;
+}
+p.EB28InlineCaption2 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 1em 0em;
+}
+
+p.EB28InlineCaptionNBS {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 0em 0em;
+}
+
+p.EB28InlineCaption3 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 1em 0em;
+}
+p.EB28FSCaption3 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin:0em 0em 0em 0em;
+}
+
+p.EB28InlineCaption4 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 0em 0em;
+}
+
+p.EB28FSCaption1 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:0.85em;
+    margin:0em 0em 0em 0em;
+}
+p.EB28FSCaption2 {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 1em 0em;
+}
+
+p.EB28FSCaption2PB {
+    text-align:center;
+    line-height:1.3em;
+    font-size:x-small;
+    margin:0em 0em 1em 0em;
+    page-break-after: always;
+}
+
+/* ######### Poetry ######### */
+
+p.poem {
+     text-indent: -2em;
+     padding-left: 2em;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: 1.3em;
+}
+
+p.poemInline {
+     text-indent: -2em;
+     padding-left: 2em;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: 1.3em;
+     font-size:0.85em;
+}
+div.StanzaWrap{
+    width:100%;
+    margin: 1em 0em
+}
+
+/* ######### Inline Tables ######### */
+
+table.SmallTable{
+     border-collapse:collapse;
+     margin:1em 0 1em !important;
+     page-break-inside:avoid;
+     width:100%;
+     border:1px solid #000000;
+     text-align:center;
+}
+th.HCell {
+    font-size:0.85em;
+    border:1px solid #000000;
+    -webkit-hyphens:none;
+    hyphens:none;
+    page-break-inside:avoid;
+    padding:5px !important;
+    text-indent:0;
+    text-align:center;
+}
+td.TCell {
+     font-size:0.85em;
+    border:1px solid #000000;
+    -webkit-hyphens:none;
+    hyphens:none;
+    page-break-inside:avoid;
+    padding:5px !important;
+    text-indent:0;
+    text-align:left;
+}
+div.Kindlecenter {
+    text-align:center;  /*Kindle eInk devices require the text within a table cell to be enclosed in a div to enable centre alignment*/
+}
+
+/* ########## Penguin Branding styles ############# */
+
+h2.endPageHead {
+    page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size:200%;
+}
+div.brandContainer {
+    margin-top:35%;
+    text-align:center;
+}
+div.logoContainer {
+    margin-top:15%;
+    text-align:center;
+}
+div.endpageLogoContainer{
+   	margin-top:35%;
+   	text-align:center;
+}
+
+h2.brandingHeadClosedNum {
+	page-break-after: avoid;
+	text-align: center;
+	margin-top:0.25em;
+	margin-bottom:0.55em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+	line-height:1.3em;
+	text-transform: lowercase;
+	letter-spacing: 0.1em;
+    font-variant:small-caps;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+h2.brandingHeadClosedNumOnly {
+	page-break-after: avoid;
+	text-align: center;
+	margin-top:0.25em;
+	margin-bottom:3em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+	text-transform: lowercase;
+	letter-spacing: 0.1em;
+    font-variant:small-caps;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+h2.brandingHead {
+	page-break-after: avoid;
+	text-align: center;
+	margin-top:0.5em;
+	margin-bottom:3em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+h2.brandingHeadClosedTitle {
+	page-break-after: avoid;
+	line-height: 1em;
+	text-align: center;
+	margin-top:0.5em;
+	margin-bottom: 3em;
+	font-weight: normal;
+	margin-left:2%;
+	margin-right:2%;
+}
+h2.brandingPartNum {
+    page-break-after: avoid;
+	text-align: center;
+	margin-top:0.85em;
+	margin-bottom:0.25em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+	line-height:1.3em;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+h2.brandingPartSingleTitle {
+    page-break-after: avoid;
+	text-align: center;
+	margin-top:0.85em;
+	margin-bottom:0.25em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+	line-height:1.3em;
+	text-transform: lowercase;
+	letter-spacing: 0.1em;
+    font-variant:small-caps;
+    hyphens:none;
+	-webkit-hyphens: none;
+}
+
+/* ######### Horizontal rule  #############*/
+
+hr {
+    margin: 1em 10% 1em 10%
+}
+
+span.smallcaps{
+	font-size: smaller;
+}
+
+span.smallcaps1{
+	font-size: smaller;
+	font-weight: bold;
+}
+
+p.dedication {
+	line-height: 1.3em;
+	text-align: center;
+	text-indent: 0em;
+	margin-top: 5em;
+	margin-bottom: 0em;
+}
+span.strong {
+font-weight: bold;
+}
+
+span.right {
+	text-align: right;
+	text-indent: 0em;
+}
+p.right{
+line-height: 1.3em;
+text-align: right;
+text-indent: 0em;
+margin-left: 0em;
+margin-right: 0em;
+margin-bottom: 0em;
+}
+
+p.rightTopSpace{
+line-height: 1.3em;
+text-align: right;
+text-indent: 0em;
+margin-left: 0em;
+margin-top: 0.5em;
+}
+
+p.rightBottomSpace{
+line-height: 1.3em;
+text-align: right;
+text-indent: 0em;
+margin-left: 0em;
+margin-right: 0em;
+margin-bottom: 1em;
+}
+
+span.center {
+	text-align: center;
+	text-indent: 0em;
+	display: block
+}
+
+p.center{
+line-height: 1.3em;
+text-align: center;
+text-indent: 0em;
+margin-top: 1em;
+margin-bottom: 0em;
+}
+
+h2.EB04MainHead-1 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: 14%;
+	margin-bottom: 0em;
+	font-weight: normal;
+}
+
+p.EB10SmallHead1 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+p.EB10SmallHead1NBS {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+p.EB11SmallItalicHead1 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-indent:0em;
+}
+
+h5.EB07SmallCapsMediumHead1 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+p.EB19ExtraFeatureFullOut1 {
+	line-height: 1.3em;
+	text-indent: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.EB20ExtraFeatureLast1 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.EB20ExtraFeatureLast2 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+p.EB21ExtraFeatureIndented1 {
+	line-height: 1.3em;
+	text-indent: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.EB21ExtraFeatureIndented2 {
+	line-height: 1.3em;
+	text-indent: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+p.EB02BodyTextFullOut1 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	page-break-after:always;
+}
+
+p.EB02BodyTextFullOutBottom {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-bottom: 0.5em;
+	}
+p.EB03BodyTextIndented1 {
+	line-height: 1.3em;
+	text-indent: 1em;
+	page-break-after:always;
+}
+
+p.EB01BodyTextLineSpace1 {
+	line-height: 1.3em;
+	margin-top: 1em;
+	text-indent: 0em;
+	page-break-after:always;
+}
+h4.SmallHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+div.block {
+	margin-top: 5em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+p.EB20ExtraFeatureLast-2 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+}
+p.EB20ExtraFeatureLast3 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+p.EB20ExtraFeatureLast4 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 5em;
+}
+p.SmallTextHangingIndent {
+	line-height: 1.3em;
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+p.SmallTextHangingIndent1 {
+	line-height: 1.3em;
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+img.mid
+{
+	vertical-align: middle;
+}
+p.EB26SmallTextHangingIndent1 {
+	line-height: 1.3em;
+	text-indent: -1em;
+	padding-left: 1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+p.HangingIndent1 {
+	line-height: 1.3em;
+	text-indent: -1.3em;
+	padding-left: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p.HangingIndent2 {
+	line-height: 1.3em;
+	text-indent: -1em;
+	padding-left: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p.EB03BodyTextIndented3 {
+	line-height: 1.3em;
+	text-indent: 1em;
+	margin-bottom: 1em;
+}
+p.EB02BodyTextFullOut3 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-bottom: 1em;
+}
+p.EB02BodyTextFullOut3PB {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-bottom: 0em;
+	page-break-after: always;
+}
+p.EB20ExtraFeatureLast5 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 4.5em;
+	margin-right: 1em;
+}
+p.note {
+	line-height: 1.3em;
+	text-indent: 0em;
+	padding-left: 0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+div.sidebar
+{
+margin-top: 1em;
+margin-bottom: 1em;
+padding: 1em;
+}
+div.sidebar2
+{
+margin-top: 0em;
+margin-bottom: 1em;
+padding: 1em;
+border: 1px solid #000000;
+}
+h5.EB07SmallCapsMediumHead7 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+
+p.EB20ExtraFeatureLast6 {
+	line-height: 1.3em;
+	text-indent: 0em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	page-break-after:always;
+}
+h4.EB10SmallHead-1 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	font-weight: normal;
+}
+h2.brandingHead2 {
+	page-break-after: avoid;
+	text-align: center;
+	margin-top:0.5em;
+	margin-bottom:0em;
+	margin-left:2%;
+	margin-right:2%;
+	font-weight: normal;
+    hyphens:none;
+    color: #EB5C24;
+	-webkit-hyphens: none;
+}
+span.orange {
+    color: #EB5C24;
+}
+p.EB04MainHead3 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	margin-top: 14%;
+	font-size: large;
+	margin-bottom: 1em;
+	font-weight: normal;
+	color: #3399CC;
+	text-indent: 0em;
+}
+p.handwrittenimage {
+line-height: 1.3em;
+text-align: left;
+text-indent: 0em;
+margin-top: 0em;
+margin-bottom: 1em;
+font-weight: bold;
+}
+p.handW {
+line-height: 1.3em;
+text-align: left;
+text-indent: 0em;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+p.handwrittenimagetop {
+line-height: 1.3em;
+text-align: left;
+text-indent: 0em;
+margin-top: 0em;
+margin-bottom: 0em;
+font-weight: bold;
+}
+p.handwrittenimagebottom {
+line-height: 1.3em;
+text-align: center;
+text-indent: 0em;
+margin-top: 0em;
+margin-bottom: 2em;
+}
+div.block1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+p.HangingIndent5 {
+	line-height: 1.3em;
+	text-indent: -3.5em;
+	padding-left: 0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+div.block2 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-left: 2.8em;
+	margin-right: 1em;
+}
+span.line {
+    border-bottom:1px solid #000000;
+    text-decoration:underline;
+}
+span.center-x {
+	text-align: center;
+	text-indent: 0em;
+    color: #EB5C24;
+}
+p.EB10SmallHead2 {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+div.block3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+  page-break-after: always;
+}
+
+/* ########## Endmatter Styles ############# */
+
+img.banner
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 6%
+}
+
+body.endmatter
+{
+    margin: 0;
+    padding-top: 1em
+}
+
+h2.sampleChapIntroHead {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: 25%;
+	margin-bottom: 1.2em;
+	font-weight: bold;
+}
+
+h2.sampleChapIntroFoot {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 1em 10% 0 10%;
+	font-weight: bold;
+}
+
+h4.sampleChapImageFoot {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 1.5em 20% 0;
+	font-weight: normal;
+}
+
+h2.authorName {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 0 0 0 0;
+	font-weight: bold;
+}
+
+h2.authorNameSpaceBelow {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 0 0 0.5em 0;
+	font-weight: bold;
+}
+
+h3.sampleTitle {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	margin: 0.5em 0 0 0;
+	letter-spacing: 2px
+}
+
+h3.sampleTitleSpaceBelow {
+	page-break-after: avoid;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+	margin: 0.5em 0 0.5em 0;
+	letter-spacing: 2px
+}
+
+p.sameAuthorList {
+    font-size: 85%;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1em
+}
+
+h2.socialPageFoot{
+    line-height: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center
+}
+
+/* ___ Part Page Images ___ */
+
+/*  These are experimental and
+    currently for use in endmatter only. */
+
+div.centeredImage /* Use this as parent div for all part-page images, then select a child div below at appropriate size */ {
+	text-align: center;
+	margin: 0
+}
+
+div.imageExtraLarge {
+	display: inline-block;
+	width: 99%;
+	page-break-inside: avoid
+}
+
+div.imageLarge {
+	display: inline-block;
+	width: 75%;
+	page-break-inside: avoid
+}
+
+div.imageMedium {
+	display: inline-block;
+	width: 45%;
+	page-break-inside: avoid
+}
+
+div.imageSmall {
+	display: inline-block;
+	width: 25%;
+	page-break-inside: avoid
+}
+
+div.imageExtraSmall {
+	display: inline-block;
+	width: 10%;
+	page-break-inside: avoid
+}
+
+div.centeredImage img {
+	width: 100%
+}
+p.extractcenter{
+line-height: 1.3em;
+text-align: center;
+text-indent: 0em;
+margin-top: 1em;
+font-size: 0.85em;
+margin-bottom: 1em;
+}
+p.extractcenter1{
+line-height: 1.3em;
+text-align: center;
+text-indent: 0em;
+margin-top: 1em;
+font-size: 0.85em;
+margin-bottom: 0em;
+}
+table.SmallTable1{
+     border-collapse:collapse;
+     margin:1em 0 1em !important;
+     page-break-inside:avoid;
+     width:100%;
+     text-align:center;
+}
+td.TCell1 {
+     font-size:0.85em;
+    -webkit-hyphens:none;
+    hyphens:none;
+    vertical-align:top;
+    page-break-inside:avoid;
+    padding:5px !important;
+    text-indent:0;
+    text-align:left;
+}
+td.TCell2 {
+     font-size:0.85em;
+    -webkit-hyphens:none;
+    hyphens:none;
+    vertical-align:top;
+    page-break-inside:avoid;
+    padding:5px !important;
+    text-indent:0;
+    text-align:center;
+}
+p.EB18EpigraphSource1 {
+	line-height: 1.3em;
+	text-indent: 0;
+	text-align: right;
+	font-size: 0.85em;
+	font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0em;
+	margin-right: 0em;
+}
+p.poemCenter {
+     margin-top: 0;
+     text-align: center;
+     margin-bottom: 0;
+     line-height: 1.3em;
+     font-size:0.85em;
+}
+div.space
+{
+	margin-left: 1em;
+}
+p.EB03BodyTextIndented9 {
+	line-height: 1.3em;
+	text-indent: 0;
+	margin-left: 1em;
+}
+p.EB03BodyTextIndented8 {
+	line-height: 1.3em;
+	text-indent: 1em;
+	font-size:0.85em;
+}
+
+
+
+
+
+div.StanzaWrap1 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+/* ___ Apple Image Fix ___ */
+
+img { /* This is to fix a bug in iBooks 4.0 regarding image centering */
+    display: inline-block;
+}
