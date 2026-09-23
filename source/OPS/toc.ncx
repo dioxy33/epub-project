@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="urn:isbn:9780141914046"/>
+	</head>
+	<docTitle>
+		<text>The Book of Disquiet</text>
+	</docTitle>
+	<docAuthor>
+		<text>Fernando Pessoa</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="cover" playOrder="1">
+			<navLabel>
+				<text>Cover</text>
+			</navLabel>
+			<content src="xhtml/cover.xhtml"/>
+		</navPoint>
+		<navPoint id="title" playOrder="2">
+			<navLabel>
+				<text>Title Page</text>
+			</navLabel>
+			<content src="xhtml/title.xhtml"/>
+		</navPoint>
+		<navPoint id="contents" playOrder="3">
+			<navLabel>
+				<text>Contents</text>
+			</navLabel>
+			<content src="xhtml/toc.xhtml"/>
+		</navPoint>
+		<navPoint id="abouttheauthor" playOrder="4">
+			<navLabel>
+				<text>About the Author</text>
+			</navLabel>
+			<content src="xhtml/abouttheauthor.xhtml"/>
+		</navPoint>		
+		<navPoint id="introduction" playOrder="5">
+			<navLabel>
+				<text>Introduction</text>
+			</navLabel>
+			<content src="xhtml/introduction.xhtml"/>
+		</navPoint>
+		<navPoint id="translation" playOrder="6">
+			<navLabel>
+				<text>Note on the Text and Translation</text>
+			</navLabel>
+			<content src="xhtml/translation.xhtml"/>
+		</navPoint>
+		<navPoint id="part001" playOrder="7">
+			<navLabel>
+				<text>The Book of Disquiet</text>
+			</navLabel>
+			<content src="xhtml/part001.xhtml"/>
+		</navPoint>
+		<navPoint id="preface" playOrder="8">
+			<navLabel>
+				<text>Preface by Fernando Pessoa</text>
+			</navLabel>
+			<content src="xhtml/preface.xhtml"/>
+		</navPoint>
+		<navPoint id="autobiography" playOrder="9">
+			<navLabel>
+				<text>A Factless Autobiography</text>
+			</navLabel>
+			<content src="xhtml/autobiography.xhtml"/>
+		</navPoint>
+		<navPoint id="anthology" playOrder="10">
+			<navLabel>
+				<text>A Disquiet Anthology</text>
+			</navLabel>
+			<content src="xhtml/anthology.xhtml"/>
+		</navPoint>
+		<navPoint id="appendix" playOrder="11">
+			<navLabel>
+				<text>Appendix</text>
+			</navLabel>
+			<content src="xhtml/appendix.xhtml"/>
+		<navPoint id="appendix001" playOrder="12">
+			<navLabel>
+				<text>I. Texts citing the name of Vicente Guedes</text>
+			</navLabel>
+			<content src="xhtml/appendix001.xhtml"/>
+		</navPoint>
+		<navPoint id="appendix002" playOrder="13">
+			<navLabel>
+				<text>II. Two Letters</text>
+			</navLabel>
+			<content src="xhtml/appendix002.xhtml"/>
+		</navPoint>
+		<navPoint id="appendix003" playOrder="14">
+			<navLabel>
+				<text>III. Reflections on The Book of Disquiet from Pessoa&#8217;s Writings</text>
+			</navLabel>
+			<content src="xhtml/appendix003.xhtml"/>
+		</navPoint>
+		</navPoint>
+		<navPoint id="notes" playOrder="15">
+			<navLabel>
+				<text>Notes</text>
+			</navLabel>
+			<content src="xhtml/notes.xhtml"/>
+		</navPoint>
+		<navPoint id="heteronyms" playOrder="16">
+			<navLabel>
+				<text>Table of Heteronyms</text>
+			</navLabel>
+			<content src="xhtml/heteronyms.xhtml"/>
+		</navPoint>
+		<navPoint id="acknowledgments" playOrder="17">
+			<navLabel>
+				<text>Acknowledgements</text>
+			</navLabel>
+			<content src="xhtml/acknowledgments.xhtml"/>
+		</navPoint>
+		<navPoint id="endpage" playOrder="18">
+			<navLabel>
+				<text>Follow Penguin</text>
+			</navLabel>
+			<content src="xhtml/endpage.xhtml"/>
+		</navPoint>
+		<navPoint id="copyright" playOrder="19">
+			<navLabel>
+				<text>Copyright Page</text>
+			</navLabel>
+			<content src="xhtml/copyright.xhtml"/>
+		</navPoint>
+	</navMap>
+</ncx>

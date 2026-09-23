@@ -1,0 +1,137 @@
+<package xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ calibre: https://calibre-ebook.com" unique-identifier="eISBN9780141914046" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="t1">The Book of Disquiet</dc:title>
+    <dc:creator id="id">Fernando Pessoa</dc:creator>
+    <dc:identifier>isbn:9781878972279</dc:identifier>
+    <dc:identifier>google:jj-BPwAACAAJ</dc:identifier>
+    <dc:identifier>calibre:96372</dc:identifier>
+    <dc:identifier>uuid:c387769a-8038-4476-a474-0ddfabd9ee9b</dc:identifier>
+    <dc:identifier id="eISBN9780141914046">urn:isbn:9780141914046</dc:identifier>
+    <dc:source id="p9780241200131">urn:isbn:9780241200131</dc:source>
+    <dc:type>Text</dc:type>
+    <dc:format>560 pages</dc:format>
+    <dc:rights>All rights reserved.</dc:rights>
+    <dc:language>en</dc:language>
+    <dc:date>1998-08-15T14:22:43+00:00</dc:date>
+    <dc:description>&lt;p&gt;Pessoa's most famous work depicts a vast interior landscape laced with daily minutiae and aphoristic brillianceThe eternal mystique of Portuguese writer Fernando Pessoa (1888-1935) stems largely from his practice of writing under heteronyms. More than just nom de plumes, Pessoa's heteronyms came with distinct biographies, careers, life spans, even horoscopes. In The Book of Disquiet, Pessoa came as close as he ever would to autobiography. Left on disordered scraps of paper in a trunk, the fragments that make up The Book of Disquiet record in disjunct entries a vast interior landscape and daily minutiae, making for a discontinuous, gently unhinged monologue in daybook form.&lt;/p&gt;</dc:description>
+    <dc:publisher>Exact Change</dc:publisher>
+    <dc:subject>Poetry</dc:subject>
+    <dc:subject>General</dc:subject>
+    <dc:subject>European</dc:subject>
+    <opf:meta refines="#t1" property="title-type">main</opf:meta>
+    <opf:meta refines="#t1" property="file-as">Book of Disquiet, The</opf:meta>
+    <meta property="identifier-type" refines="#eISBN9780141914046" scheme="onix:codelist5">15</meta>
+    <meta property="identifier-type" refines="#p9780241200131" scheme="onix:codelist5">15</meta>
+    <meta content="2015-04-01" name="specification"/>
+    <meta content="1.0.0" name="version"/>
+    <meta property="ibooks:version">1.0.0</meta>
+    <meta property="dcterms:modified">2015-04-30T12:00:00Z</meta>
+    <meta content="cover-image" name="cover"/>
+    <meta content="Penguin" name="imprint"/>
+    <opf:meta refines="#id" property="role" scheme="marc:relators">aut</opf:meta>
+    <opf:meta refines="#id" property="file-as">Pessoa, Fernando</opf:meta>
+    <opf:meta property="calibre:user_metadata">{
+  "#formats": {
+    "#value#": "EPUB",
+    "category_sort": "value",
+    "colnum": 1,
+    "column": "value",
+    "datatype": "composite",
+    "display": {
+      "composite_sort": "text",
+      "composite_template": "{formats}",
+      "contains_html": false,
+      "make_category": false,
+      "use_decorations": 0
+    },
+    "is_category": false,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "formats",
+    "link_column": "value",
+    "name": "Formats",
+    "rec_index": 24,
+    "search_terms": [
+      "#formats"
+    ],
+    "table": "custom_column_1"
+  }
+}</opf:meta>
+  </metadata>
+  <manifest>
+    <item href="xhtml/cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="xhtml/brand.xhtml" id="brand" media-type="application/xhtml+xml"/>
+    <item href="xhtml/title.xhtml" id="title" media-type="application/xhtml+xml"/>
+    <item href="xhtml/toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
+    <item href="xhtml/abouttheauthor.xhtml" id="abouttheauthor" media-type="application/xhtml+xml"/>
+    <item href="xhtml/introduction.xhtml" id="introduction" media-type="application/xhtml+xml"/>
+    <item href="xhtml/translation.xhtml" id="translation" media-type="application/xhtml+xml"/>
+    <item href="xhtml/part001.xhtml" id="part001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/fm001.xhtml" id="fm001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
+    <item href="xhtml/autobiography.xhtml" id="autobiography" media-type="application/xhtml+xml"/>
+    <item href="xhtml/chapter001.xhtml" id="chapter001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/chapter002.xhtml" id="chapter002" media-type="application/xhtml+xml"/>
+    <item href="xhtml/chapter003.xhtml" id="chapter003" media-type="application/xhtml+xml"/>
+    <item href="xhtml/chapter004.xhtml" id="chapter004" media-type="application/xhtml+xml"/>
+    <item href="xhtml/anthology.xhtml" id="anthology" media-type="application/xhtml+xml"/>
+    <item href="xhtml/anthology001.xhtml" id="anthology001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/appendix.xhtml" id="appendix" media-type="application/xhtml+xml"/>
+    <item href="xhtml/appendix001.xhtml" id="appendix001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/appendix002.xhtml" id="appendix002" media-type="application/xhtml+xml"/>
+    <item href="xhtml/appendix003.xhtml" id="appendix003" media-type="application/xhtml+xml"/>
+    <item href="xhtml/notes.xhtml" id="notes" media-type="application/xhtml+xml"/>
+    <item href="xhtml/heteronyms.xhtml" id="heteronyms" media-type="application/xhtml+xml"/>
+    <item href="xhtml/acknowledgments.xhtml" id="acknowledgments" media-type="application/xhtml+xml"/>
+    <item href="xhtml/endpage.xhtml" id="endpage" media-type="application/xhtml+xml"/>
+    <item href="xhtml/copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
+    <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="styles/stylesheet.css" id="css" media-type="text/css"/>
+    <item href="images/box.jpg" id="box-image" media-type="image/jpeg"/>
+    <item href="images/cover.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+    <item href="images/logo_brand.jpg" id="logo_brand-image" media-type="image/jpeg"/>
+    <item href="images/logo_small.jpg" id="logo_small-image" media-type="image/jpeg"/>
+    <item href="images/PCHI_1.jpg" id="PCHI_1-image" media-type="image/jpeg"/>
+    <item href="images/prhuklogo.jpg" id="prhuklogo-image" media-type="image/jpeg"/>
+    <item href="images/star.jpg" id="star-image" media-type="image/jpeg"/>
+    <item href="images/star1.jpg" id="star1-image" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="brand"/>
+    <itemref idref="title"/>
+    <itemref idref="toc"/>
+    <itemref idref="abouttheauthor"/>
+    <itemref idref="introduction"/>
+    <itemref idref="translation"/>
+    <itemref idref="part001"/>
+    <itemref idref="fm001"/>
+    <itemref idref="preface"/>
+    <itemref idref="autobiography"/>
+    <itemref idref="chapter001" properties="page-spread-right"/>
+    <itemref idref="chapter002"/>
+    <itemref idref="chapter003"/>
+    <itemref idref="chapter004"/>
+    <itemref idref="anthology"/>
+    <itemref idref="anthology001"/>
+    <itemref idref="appendix"/>
+    <itemref idref="appendix001"/>
+    <itemref idref="appendix002"/>
+    <itemref idref="appendix003"/>
+    <itemref idref="notes"/>
+    <itemref idref="heteronyms"/>
+    <itemref idref="acknowledgments"/>
+    <itemref idref="endpage"/>
+    <itemref idref="copyright"/>
+  </spine>
+  <guide>
+    <reference href="xhtml/cover.xhtml" title="Cover" type="cover"/>
+    <reference href="xhtml/toc.xhtml" title="Table of Contents" type="toc"/>
+    <reference href="xhtml/brand.xhtml" title="Begin Reading" type="text"/>
+  </guide>
+</package>
